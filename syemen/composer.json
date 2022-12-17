@@ -1,0 +1,61 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "yurkinx/yii2-rss": "^1.0",
+	"miniflux/picofeed": "@dev",
+        "yiidoc/yii2-redactor": "*",
+        "kartik-v/yii2-widget-fileinput": "*",
+        "zacksleo/yii2-post": "*",
+        "nirvana-msu/yii2-jsonld-helper": "1.0.*@dev",
+        "zhelyabuzhsky/yii2-sitemap": "^1.1",
+        "evert/sitemap-php": "^1.2",
+        "ogheo/yii2-htmlcompress": "*",
+        "yiisoft/yii2-redis": "^2.0",
+        "laminas/laminas-xml": "^1.4"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+		"vendor-dir":"/home/yemenvibe/vendor",
+        "process-timeout": 1800,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+	{
+        "type": "path",
+        "url": "../packages/miniflux",
+        "options": {
+            		"symlink": true
+        		}
+   	 }
+
+    ]
+}

@@ -1,0 +1,1 @@
+<?php foreach($items as $entry) echo  $this->render('_entry',['entry'=>$entry]);?>

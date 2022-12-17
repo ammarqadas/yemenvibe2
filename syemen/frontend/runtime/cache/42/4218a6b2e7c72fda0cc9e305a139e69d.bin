@@ -1,0 +1,7 @@
+a:2:{i:0;a:1:{i:0;a:11:{s:2:"id";s:5:"67016";s:6:"feedId";s:3:"109";s:5:"title";s:92:"كيف يهدد مقتل خاشقجي نفوذ إسرائيل في الشرق الأوسط؟";s:3:"url";s:35:"http://mosnad.com/news.php?id=39922";s:4:"read";s:3:"510";s:8:"itemDate";s:10:"1540246440";s:12:"enclosureUrl";s:66:"http://mosnad.com/upimages/news/thumbs/Mosnad23-10-2018-208443.png";s:7:"content";s:583:"<p>تارة بدت صامتة وأخرى موالية للموقف السعودي الرسمي، لكن ما لم تستطع إخفاءه هو أنها متخوفة وقلقة من تداعيات قضية مقتل الصحافي السعودي جمال خاشقجي عليها.
+
+	آ 
+
+	تحدث مؤخرًا المحللون والمراقبون في إسرائيل عما يدور في مراكز صنع القرار، ويظهر خشية تل أبيب من أن تفضي أزمة خاشقجيآ  إلى فقدانها العديد من المكاسب الاستراتيجية،</p>";s:4:"body";s:485:"<br/>Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/mosnad/public_html/_inc/config.php on line 21<br/>Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/mosnad/public_html/online.php on line 13<br/>Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/mosnad/public_html/online.php on line 29<br/><ul>
+				<li>الثلاثاء, 10 مارس, 2020 07:06 مساءً</li>
+			</ul>";s:4:"slug";s:78:"يهدد-مقتل-خاشقجي-نفوذ-إسرائيل-الشرق-الأوسط";s:5:"thumb";N;}}i:1;N;}

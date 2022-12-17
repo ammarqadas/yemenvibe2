@@ -1,0 +1,54 @@
+{
+    "dir": "rtl",
+    "lang": "Arabic",
+    "name": "يمن فايب",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "http://localhost/rss-web/",
+    "short_name": "YemenVibe",
+    "theme_color": "transparent",
+    "description": "يمن فايب دليل لكل الأخبار التي تناولتها الصحافة اليمنية بكل اتجاهاتها مصنفة إلى أخبار اليمن الأن وفية أخر المستجدات والأحداث في المشهد اليمني وأخبار اليمن اليوم وفية ما تم تداوله من اخبار خلال اليوم كما يوجد قسم يحتوى على أهم الأخبار في الساحة اليمنية ",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+  {
+   "src": "images/android-icon-36x36.png",
+   "sizes": "36x36",
+   "type": "imageimages/png",
+   "density": "0.75"
+  },
+  {
+   "src": "images/android-icon-48x48.png",
+   "sizes": "48x48",
+   "type": "imageimages/png",
+   "density": "1.0"
+  },
+  {
+   "src": "images/android-icon-72x72.png",
+   "sizes": "72x72",
+   "type": "imageimages/png",
+   "density": "1.5"
+  },
+  {
+   "src": "images/android-icon-96x96.png",
+   "sizes": "96x96",
+   "type": "imageimages/png",
+   "density": "2.0"
+  },
+  {
+   "src": "images/android-icon-144x144.png",
+   "sizes": "144x144",
+   "type": "imageimages/png",
+   "density": "3.0"
+  },
+  {
+   "src": "images/icon512.png",
+   "sizes": "512x512",
+   "type": "imageimages/png",
+   "density": "4.0"
+  }
+ ]
+    
+}
