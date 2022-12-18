@@ -21,7 +21,7 @@ $dateUp=\Yii::$app->formatter->asDatetime($timestamp, 'php:d-M h:i A');
 <h1><a href="<?=Yii::$app->homeUrl?>" title="اخر اخبار اليمن  الحدث تاريخ  <?=$dateUp?>"  >اخبار اليمن الان</a></h1> 
 	<?php if ($headers )?>
 	<?php //foreach($headers as $header) echo \Yii::$app->controller->renderPartial('_header',['entry'=>$header]);
-	echo \Yii::$app->controller->renderPartial('../_part/_entry',['entry'=>array_shift($headers)]);?>
+	echo \Yii::$app->controller->renderPartial('../_part/_entry_top',['entry'=>array_shift($headers)]);?>
 			</header>
 
 	
