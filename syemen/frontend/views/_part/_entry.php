@@ -14,7 +14,7 @@ echo \yii\helpers\Html::a($title,$url)?>
 if (!empty($entry['thumb']))  {
 $thumb=json_decode($entry['thumb']);
 ?>
-<img alt="اخبار اليمن الان الحدث اليوم  عاجل <?=$entry['feed']['res']['rName']?>" title=" <?=$entry['feed']['res']['rName']?> اخبار اليمن الان <?=topWords($title,5)?>" class="av" src="<?=param('defImage')?>" data-src="<?=$thumb->sm?>"/>
+<img alt="اخبار اليمن الان الحدث اليوم  عاجل <?=$entry['feed']['res']['rName']?>" title=" <?=$entry['feed']['res']['rName']?> اخبار اليمن الان <?=topWords($title,5)?>" width="160" height="100" class="av" src="<?=param('defImage')?>" data-src="<?=$thumb->sm?>"/>
 <?php } ;?>
 
 
