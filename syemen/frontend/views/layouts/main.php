@@ -18,7 +18,7 @@ $siteTitle= \Yii::t('main', 'siteTitle',['appName'=>Yii::$app->name]);?>
 </head>
 
 <body>
-<link  href="<?=assets()?>/0.css?v=1" rel="stylesheet">
+<link  href="<?=assets()?>/0.css?v=2" rel="stylesheet">
 <style>@media(min-width:800px){#c{flex-flow:column}}</style>
 <?php $this->beginBody()?>
 <div id="w">
@@ -101,5 +101,5 @@ const wp=(url)=>{window.open(url,'شارك','width=655,height=430');return!1};
 
 
 <?php $this->endPage() ?>
-<link   href="<?=assets()?>/s2.css?v=1" rel="stylesheet">
-<link   href="<?=assets()?>/d2.css?v=1" rel="stylesheet" media="(min-width:800px)">
+<link   href="<?=assets()?>/s2.css?v=2" rel="stylesheet">
+<link   href="<?=assets()?>/d2.css?v=2" rel="stylesheet" media="(min-width:800px)">
