@@ -87,12 +87,6 @@ $siteTitle= \Yii::t('main', 'siteTitle',['appName'=>Yii::$app->name]);?>
 </div>
 
 </div>
-<script async  src="https://www.googletagmanager.com/gtag/js?id=UA-134152096-1"></script>
-<script>window.dataLayer = window.dataLayer||[];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-134152096-1');
-  </script>
 </body>
 <?php $this->endBody() ?>
 </html>
