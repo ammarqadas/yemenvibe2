@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /_tmp/
-Disallow: /debug/
-Disallow: /assets/
-Allow: /
