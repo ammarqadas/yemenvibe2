@@ -58,7 +58,7 @@ $thumb = json_decode($entry['thumb']);
 	          echo \Yii::$app->controller->renderPartial('../_part/_item',['entry'=>$entry]);
 		
  }?>
-		<h4><a  title ="اخر اخبار اليمن الان العاجله" class="of more" href="/اخبار-اليمن-الان">اخبار اليمن الان عاجل</a></h4>
+		<h3><a  title ="اخر اخبار اليمن الان العاجله" class="of more" href="/اخبار-اليمن-الان">اخبار اليمن الان عاجل</a></h3>
 	</section>
 		
 
