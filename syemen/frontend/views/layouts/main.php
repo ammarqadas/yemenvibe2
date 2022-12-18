@@ -25,7 +25,7 @@ $siteTitle= \Yii::t('main', 'siteTitle',['appName'=>Yii::$app->name]);?>
 <header>
 <div class="in">
 <div id="g">
-<a href="<?=Yii::$app->homeUrl?>"><img src="<?=assets()?>/logo2.svg" alt="اخبار اليمن الان الحدث اليوم  عاجل" title="<?=Yii::t('main', 'logo',['appName'=>Yii::$app->name])?>" /></a>
+<a href="<?=Yii::$app->homeUrl?>"><img width="154" height="30" src="<?=assets()?>/logo2.svg" alt="اخبار اليمن الان الحدث اليوم  عاجل" title="<?=Yii::t('main', 'logo',['appName'=>Yii::$app->name])?>" /></a>
 <a id="nT" href="javascript:void(0)" onclick="nT()" >&#9776;</a>
 </div>
 <nav id="tnv" class="snv">
@@ -64,7 +64,7 @@ $siteTitle= \Yii::t('main', 'siteTitle',['appName'=>Yii::$app->name]);?>
 	
 
 	<div>
-        		<a href="<?=Yii::$app->homeUrl?>"><img src="<?=assets()?>/logo2.svg" alt="اخبار اليمن الان الحدث اليوم  عاجل" title="<?=Yii::t('main', 'logo',['appName'=>Yii::$app->name])?>" />
+        		<a href="<?=Yii::$app->homeUrl?>"><img src="<?=assets()?>/logo2.svg" width="220" height="40" alt="اخبار اليمن الان الحدث اليوم  عاجل" title="<?=Yii::t('main', 'logo',['appName'=>Yii::$app->name])?>" />
 			<p><span class="i-m"></span>yemenvibe@gmail.com</p>
 			<div class="fm">
 				<a href="https://www.facebook.com/vibeyemen" target="_blank"> <span class="i-f"></span></a>
