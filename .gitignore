@@ -1,4 +1,5 @@
 **/runtime/**
-/vendor
-/run
+/vendor/**
+/run/**
+/syemen/frontend/runtime/**
 
