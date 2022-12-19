@@ -26,7 +26,7 @@ echo YemenWidget::widget(['fromDate'=>' -5hours','toDate'=>'-1  hours','limit'=>
 
 
 	<section id="r">
-		 <h3><?=\Yii::t('main','websiteTitle')?></h3>
+		 <h2><?=\Yii::t('main','websiteTitle')?></h2>
 
 	<?php if ($this->beginCache("reslist", ['duration' => 7200])) {
 	echo Res2Widget::widget();
