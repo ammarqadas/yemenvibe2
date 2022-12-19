@@ -7,7 +7,7 @@
 <meta http-equiv=content-language content="ar">
 <style>@media (min-width:800px){.mad{max-width:850;}}</style>
   <link rel="preload" href="/a/syi.woff2" as="font" crossorigin>
-  <link rel="preload" href="/a/s2.css?v=1" as="style">
+  <link rel="preload" href="/a/s2.css?v=2" as="style">
   <link rel="preload" href="/a/d2.css?v=2" as="style">
  <link rel="preload" href="/a/0.css?v=2" as="style">
  <link rel='preconnect' href='https://www.google-analytics.com' />
