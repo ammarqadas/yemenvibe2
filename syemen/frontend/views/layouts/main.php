@@ -26,7 +26,7 @@ $siteTitle= \Yii::t('main', 'siteTitle',['appName'=>Yii::$app->name]);?>
 <div class="in">
 <div id="g">
 <a href="<?=Yii::$app->homeUrl?>"><img width="154" height="30" src="<?=assets()?>/logo2.svg" alt="اخبار اليمن الان الحدث اليوم  عاجل" title="<?=Yii::t('main', 'logo',['appName'=>Yii::$app->name])?>" /></a>
-<a id="nT" href="javascript:void(0)" onclick="nT()" >&#9776;</a>
+<span id="nT">&#9776;</span>
 </div>
 <nav id="tnv" class="snv">
 <ul class="hide">
@@ -93,10 +93,8 @@ $siteTitle= \Yii::t('main', 'siteTitle',['appName'=>Yii::$app->name]);?>
 <script>
 const imgDefer=(cls)=>{const imgAsync=document.querySelectorAll(cls);const loadImage=(img)=>{return new Promise((resolve,reject)=>{img.src=img.getAttribute('data-src');img.onload=()=>{img.removeAttribute('data-src');resolve(img)};img.onerror=(e)=>{console.log('load fail:'+e.message);resolve(e)}})};if(imgAsync)
 Array.from(imgAsync).map(img=>loadImage(img))};
-function nT(){var x=document.getElementById('tnv');if(x.className==='snv'){x.className='tnv'}else{x.className='snv'}};
 (function(){imgDefer('main article .av');})();
 const wp=(url)=>{window.open(url,'شارك','width=655,height=430');return!1};
-//ads("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js").then(()=>{(adsbygoogle=window.adsbygoogle||[]).push({})});
 </script>
 
 
