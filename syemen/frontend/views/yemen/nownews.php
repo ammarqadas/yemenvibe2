@@ -12,10 +12,10 @@ $this->title=\Yii::t('main','nowTitle',['appName'=>Yii::$app->name]);
 //$this->title="اليمن الان-اخبار عاجلة يمن فايب";
 //$this->registerMetaTag(['name' => 'robots', 'content' => 'follow']);
 //$this->registerMetaTag(['name' => 'robots', 'content' => 'noindex,follow']);
-$this->registerLinkTag(['rel' => 'canonical', 'href' => Yii::$app->homeUrl]);
+//$this->registerLinkTag(['rel' => 'canonical', 'href' => Yii::$app->homeUrl]);
 //$url=url(['/اخبار-اليمن-الان',],'https');
 
-//$this->registerLinkTag(['rel' => 'canonical', 'href' => $url]);
+$this->registerLinkTag(['rel' => 'canonical', 'href' => $url]);
 
 $this->registerMetaTag(['name' => 'description', 'content' => Yii::t('main','nowDesc')]);
 
