@@ -32,12 +32,12 @@ $this->registerMetaTag(['property' => 'og:image', 'content' =>$img]);
 $this->registerMetaTag(['name' => 'twitter:card', 'content' =>'summary_large_image']);
 $this->registerMetaTag(['name' => 'twitter:image', 'content' =>$img]);
 
-if(strtotime('-4 months')>$news['itemDate'])
-{
-$this->registerMetaTag(['name' => 'googlebot', 'content' =>'noindex']);
-$this->registerMetaTag(['name' => 'robots', 'content' =>'noindex']);
-}
-$this->registerMetaTag(['name' => 'GOOGLEBOT', 'content' =>"unavailable_after: ".\Yii::$app->formatter->asDatetime(strtotime('+2 months', $news['itemDate']), 'php:d-M-y h:i:s T')]);?>
+// if(strtotime('-4 months')>$news['itemDate'])
+// {
+// $this->registerMetaTag(['name' => 'googlebot', 'content' =>'noindex']);
+// $this->registerMetaTag(['name' => 'robots', 'content' =>'noindex']);
+// }
+$this->registerMetaTag(['name' => 'GOOGLEBOT', 'content' =>"unavailable_after: ".\Yii::$app->formatter->asDatetime(strtotime('+4 months', $news['itemDate']), 'php:d-M-y h:i:s T')]);?>
 
 <main style="padding:1em">
 
