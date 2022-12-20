@@ -4,7 +4,7 @@ return [
       
 		 'db' => [
 		             'class' => 'yii\db\Connection',
-          'dsn' => 'mysql:host=yemenvibe2.c3wqjahaw8gm.eu-west-3.rds.amazonaws.com;dbname=yemenvibe_rssdb',
+          'dsn' => 'mysql:host=localhost;dbname=yemenvibe_rssdb',
             'username' => 'vibeUsr',
             'password' => 'Mv751ue#',
             'charset' => 'utf8',
